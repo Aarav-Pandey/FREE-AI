@@ -1,0 +1,70 @@
+🔹 1
+
+Context:
+Python is a high-level programming language created by Guido van Rossum and first released in 1991.
+
+Question:
+Who created Python?
+
+
+
+🔹 3
+
+Context:
+Jupiter is the largest planet in our solar system and is known for its Great Red Spot, a giant storm.
+
+Question:
+Which planet is known for the Great Red Spot?
+
+
+
+🔹 4
+
+Context:
+San Francisco (officially the City and County of San Francisco) is the cultural, commercial, and financial center of Northern California. The city and county are located on a peninsula surrounded by the Pacific Ocean and San Francisco Bay.
+
+Question:
+What body of water surrounds San Francisco?
+
+
+
+🔹 5
+
+Context:
+Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize.
+
+Question:
+Who was the first woman to win a Nobel Prize?
+
+
+
+🔹 6
+
+Context:
+The Amazon rainforest, also known as the Amazon jungle, covers much of northwestern Brazil and extends into Colombia, Peru, and other South American countries. It is home to an incredible diversity of species, including jaguars, toucans, and poison dart frogs. The Amazon River, the second longest river in the world, flows through the forest and provides essential resources to local communities.
+
+Question:
+Which river flows through the Amazon rainforest?
+
+
+
+🔹 7
+
+Context:
+The Great Wall of China stretches over 13,000 miles across northern China and was built over several dynasties, primarily to protect against invasions from nomadic tribes. While much of the wall is in ruins today, certain sections have been preserved and restored for tourism. The wall is made from a combination of stone, brick, tamped earth, and other materials, depending on the region and dynasty.
+
+Question:
+Why was the Great Wall of China originally built and what materials were used?
+
+
+
+🔹 8
+
+Context:
+The Titanic was a British passenger liner that sank in the North Atlantic Ocean on April 15, 1912, after hitting an iceberg during her maiden voyage from Southampton to New York City. The disaster resulted in the deaths of more than 1,500 passengers and crew, making it one of the deadliest commercial peacetime maritime disasters in modern history. The ship was known for being the largest and most luxurious vessel of its time.
+
+Question:
+When did the Titanic sink, and what caused the disaster?
+
+
+
