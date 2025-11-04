@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FREEAI - Local QA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header with logo on top-left -->
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="FREEAI Logo" class="logo">
+      <span class="logo-text">FREEAI</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Ask your model</h1>
+
+    <label for="context">Context (paste paragraph / article):</label>
+    <textarea id="context" placeholder="Paste or type context here..."></textarea>
+
+    <label for="question">Question:</label>
+    <input id="question" type="text" placeholder="Type your question here..." />
+
+    <div class="controls">
+      <button id="askBtn">Ask</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <div id="result" class="result hidden">
+      <h2>Answer</h2>
+      <div id="answer" class="answer"></div>
+      <div id="score" class="score"></div>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
