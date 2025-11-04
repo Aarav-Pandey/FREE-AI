@@ -1,3 +1,4 @@
+# Only view in code for best expereience
 # 🧠 FREEAI — Local Question Answering System
 
 ## 📌 Project Overview
