@@ -19,27 +19,38 @@ It uses a **fine-tuned DistilBERT model** for question answering, trained on **S
 
 FREEAI/
 │
-├── app.py # Flask web app (main entry point)
+├── app.py                      # Flask web app (main entry point)
+│
 ├── scripts/
-│ ├── train_qa.py # Model loading, training
-│ └── train_json.py
+│   ├── train_qa.py             # Model training and fine-tuning script
+│   ├── train_json.py           # Training script for SQuAD-style JSON data
+│   ├── train_csv.py            # Training script for CSV-based datasets
+│   ├── simple_eval.py          # Evaluation script for testing model accuracy
+│   └── local_qa.py             # Model inference (QA pipeline for local use)
 │
 ├── web/
-| |--index.html # Frontend HTML layout
-│ ├── style.css # Frontend CSS styling
-│ └── script.js # JavaScript for interactivity
+│   ├── index.html              # Frontend HTML layout for QA interface
+│   ├── style.css               # ChatGPT-style CSS styling
+│   └── script.js               # JavaScript for interactivity and API calls
 │
 ├── models/
-│ └── local_distilbert/ # Directory for the trained QA model
+│   └── local_distilbert/       # Directory containing fine-tuned QA model
 │
 ├── data/
-│ └── dev-v2.0.json # Sample SQuAD-style dataset
+│   ├── train-v2.0.json         # SQuAD-style training dataset
+│   ├── dev-v2.0.json           # Development/validation dataset
+│   └── qa_dataset.csv               # Optional CSV-based dataset
 │
 ├── output/
-│ └── predictions.json # Generated predictions file
+│   └── predictions.json        # Model-generated predictions after evaluation
 │
-├── requirements.txt # Dependencies
-└── README.md # This file
+├── static/
+│   └── logo.png                # Optional logo for the UI
+│
+├── requirements.txt            # Project dependencies list
+│
+└── README.md                   # Documentation and setup guide
+
 
 
 Download all files and folders and place them in the same order as given in github repository to your D drive inside FREEAI folder if not create one
